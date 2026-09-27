@@ -11,7 +11,7 @@
 
 ### Stack
 
-**Data engineering:** Python · PySpark · SQL (Oracle) · AWS Glue · Glue Workflows · Amazon S3 · Athena · DynamoDB · QuickSight  
+**Data engineering:** Python · PySpark · SQL (Oracle) · AWS Glue · Glue Workflows · Amazon S3 · Athena · DynamoDB · QuickSight · Apache Airflow · DuckDB · FastAPI · Docker  
 **ML:** scikit-learn · XGBoost · PyTorch · Hugging Face Transformers · OpenCV · MediaPipe  
 **Other:** Git · Linux · Next.js · Flask
 
@@ -19,6 +19,7 @@
 
 | Project | What it is |
 |---|---|
+| [card-txn-lakehouse](https://github.com/SahilSBhadane/card-txn-lakehouse) | Daily card-transactions lakehouse: PySpark + **Airflow 3** (bronze/silver/gold, **SCD Type 2**, data-quality gate, fraud rules) with an **LLM text-to-SQL** layer (RAG over a data catalog, SQL guardrails, sandboxed DuckDB, evals, FastAPI) |
 | [bank-lead-scoring](https://github.com/SahilSBhadane/bank-lead-scoring) | Bank term-deposit lead scoring using only pre-call data: XGBoost, **ROC-AUC 0.81**, with the call-duration leakage quantified (0.955 → 0.814) |
 | [ai-lead-scoring-dashboard](https://github.com/SahilSBhadane/ai-lead-scoring-dashboard) | Leak-free win-probability model on CRM pipeline data (Logistic Regression vs XGBoost, ROC-AUC) + Streamlit dashboard that ranks open deals |
 | [AI-Fitness-Coach](https://github.com/SahilSBhadane/AI-Fitness-Coach) | Bench-press form classifier: MediaPipe landmarks → graph neural network (DisenGCN), rep counting. Capstone behind the Wiley paper |
